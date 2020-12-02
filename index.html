@@ -12,7 +12,7 @@
     <body>
         <header>
             <a><i class="fas fa-chevron-left arrow"></i></a>
-            <a href="index.html"><img src="images/logo_csm1.jpg" alt="community science logo" class="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="community science logo" class="logo"></a>
             <nav>
                 <ul>
                     <li><a href="about.html">about us</a></li>
@@ -30,62 +30,72 @@
                 </ul>
             </nav>
             <div class="search">
-                <input type="text">
-                <button><i class="fas fa-search"></i></button>
+                <input type="text" class="input" placeholder="search">
+                <div class="searchbtn"><i class="fas fa-search"></i></div>
             </div>
         </header>
         <main>
             <img src="images/banner_moons.jpg" alt="black sky displaying eight different stages of the moon" class="banner">
-            <section>
-                <div>
-                    <img src="images/virtualtour.jpg" alt="view inside museum of a installation of skulls">
-                    <button><a>take a virtual tour</a></button>
+            <section class="intro">
+                <div class="virtual_tour">
+                    <img src="images/virtualtour.jpg" alt="view inside museum of a installation of skulls" class="main_image">
+                    <button class="virtual btn"><a>take a virtual tour</a></button>
                 </div>
-                <div>
-                    <h1>explore together</h1>
+                <div class="intro_text">
+                    <h1 class="title">explore together</h1>
                     <p>welcome to the community science museum designed to trigger your curiosity in the endless field of science!</p>
                     <p>here you can take a trip back in time and visit the magnificent world of dinosaurs or explore how the human body looks on the inside. Find out how modern technology took us to the moon and play around with robots. We also have a variety of exciting activities and experiments for you to try out so come on down and expand your mind!</p>
                 </div>
             </section>
-            <section>
+
+            <section class="special_events">
                 <h2 id="special">special events and exhibitions</h2>
-                <div>
-                    <h3>visiting professor of aeronautics</h3>
-                    <img src="images/astronaut1.jpg" alt="astronaut soaring in space">
-                    <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                <div class="spec_events">
+                    <div class="events">
+                        <h3 class="event_title">visiting professor of aeronautics</h3>
+                        <img src="images/astronaut1.jpg" alt="astronaut soaring in space" class="info_image">
+                        <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+                    </div>
+                    <div class="events">
+                        <h3 class="event_title">night at the museum</h3>
+                        <img src="images/overnight.jpg" alt="boy in the dark holding a sparkling light" class="info_image">
+                        <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+                    </div>
+                    <div class="events">
+                        <h3 class="event_title">energetica exhibition on loan</h3>
+                        <img src="images/electricity.jpg" alt="electricity installation" class="info_image">
+                        <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>night at the museum</h3>
-                    <img src="images/overnight.jpg" alt="boy in the dark holding a sparkling light">
-                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-                </div>
-                <div>
-                    <h3>energetica exhibition on loan</h3>
-                    <img src="images/electricity.jpg" alt="electricity installation">
-                    <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-                </div>
-                <button><a>plan a visit or book a guided tour</a></button>
+                <button class="btn"><a href="contact.html">plan a visit or book a guided tour</a></button>
             </section>
-            <section>
-                <img src="images/science_kid.jpg" alt="kid looking to solwe a formula written on a blackboard">
-                <h2>for kids</h2>
-                <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p>
-                <button><a>check it out</a></button>
+
+            <section class="main_kids">
+                <div class="intro_kids">
+                    <img src="images/science_kid.jpg" alt="kid looking to solwe a formula written on a blackboard" class="main_image">
+                    <div class="text_kids">
+                        <h2>for kids</h2>
+                        <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p>
+                        <button class="kids_btn btn"><a href="kids.html">check it out</a></button>
+                    </div>
+                </div>
             </section>
+
             <section>
                 <div>
                     <h2>for teachers</h2>
-                    <img src="images/csm_fac3.jpg" alt="view inside museum displaying a whale sceleton">
+                    <img src="images/csm_fac3.jpg" alt="view inside museum displaying a whale sceleton" class="info_image">
                     <a>see more about school trips</a>
                 </div>
                 <div>
                     <h2>for researchers</h2>
-                    <img src="images/researcher.jpg" alt="person looking in a microscope">
+                    <img src="images/researcher.jpg" alt="person looking in a microscope" class="info_image">
                     <a>see more about what we have to offer</a>
                 </div>
             </section>
         </main>
     </body>
+
     <footer>
         <section>
             <h3>contact</h3>
@@ -107,12 +117,13 @@
                 <p>Sunday: 9:00 – 13:00</p>
             </div>
         </section>
+
         <section>
             <div>
                 <h4>stay updated</h4>
                 <h5>sign up for newsletter</h5>
                 <input type="email">
-                <button>submit</button>
+                <button class="btn">submit</button>
             </div>
             <div>
                 <h4>keep in touch</h4>
