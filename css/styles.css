@@ -88,7 +88,7 @@ ul li ul:active {
     width: 200px;
     border: none;
     border-radius: 5px;
-    padding-left: 5px;
+    padding: 5px;
 }
 .fas {
     padding: 5px;
@@ -138,13 +138,13 @@ main a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
+    padding-left: 20px;
 }
 .title {
     align-self: center;
     padding-bottom: 10px;
 }
-.special_events {
+.main_events {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -176,12 +176,58 @@ main a {
 }
 .text_kids {
     width: 400px;
-    padding-left: 10px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/*.kids_btn {
-    align-self: flex-end;
-}*/
+.title_kids {
+    padding-bottom: 10px;
+}
+.kids_btn {
+    margin-top: 50px;
+}
+.main_links {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.intro_links {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+/*--footerstyle--*/
+footer {
+    background-color: var(--pink);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_contact {
+    display: flex;
+}
+.footer_info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup{
+    background-color: var(--green);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+}
