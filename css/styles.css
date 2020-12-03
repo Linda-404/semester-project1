@@ -24,7 +24,7 @@ h2 {
 h3 {
     font-size: 16px;
 }
-p {
+h4, p {
     font-size: 14px;
 }
 
@@ -35,6 +35,8 @@ p {
     --green: #00FF01;
     --grey: #C2BEBB;
     --pink: #FBDEDA;
+    --purple: #A5199C;
+    --darkgreen: #057316;
 }
 
 /*--headerstyle--*/
@@ -163,6 +165,10 @@ main a {
 }
 .event_title {
     align-self: center;
+    margin-bottom: 5px;
+}
+.event_text {
+    margin-top: 5px;
 }
 .main_kids {
     margin-top: 20px;
@@ -202,7 +208,7 @@ main a {
     align-items: center;
 }
 .links {
-    color: var(--green);
+    color: var(--darkgreen);
     text-decoration: underline;
 }
 
@@ -213,6 +219,8 @@ footer {
     justify-content: space-evenly;
 }
 .footer_contact {
+    margin-top: 20px;
+    padding-bottom: 20px;
     display: flex;
 }
 .footer_info {
@@ -220,7 +228,11 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.newsletter {
+.footer_text {
+    padding-bottom: 10px;
+}
+.update {
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,4 +242,8 @@ footer {
     border-radius: 5px;
     margin-right: 10px;
     padding: 5px;
+    margin-top: 5px;
+}
+.footer_icons {
+    margin-top: 5px;
 }
