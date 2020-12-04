@@ -212,6 +212,30 @@ main a {
     text-decoration: underline;
 }
 
+/*--mainstyle about--*/
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_title {
+    background-color: var(--pink);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main_info {
+    padding: 20px;
+    display: flex;
+}
+.main_text {
+    width: 300px;
+    padding-left: 20px;
+    align-self: center;
+}
+
 /*--footerstyle--*/
 footer {
     background-color: var(--pink);
