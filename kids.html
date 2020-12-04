@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet"> 
         <link href="css/styles.css" rel="stylesheet">
     </head>
+
     <body>
         <header>
             <a><i class="fas fa-chevron-left arrow"></i></a>
@@ -34,58 +35,81 @@
                 <div class="searchbtn"><i class="fas fa-search"></i></div>
             </div>
         </header>
+
         <main>
             <img src="images/banner_moons.jpg" alt="black sky displaying eight different stages of the moon" class="banner">
-            <h1>for kids</h1>
-            <section>
+            <div class="main_title">
+                <h1>for kids</h1>
+            </div>
+            <section class="main_events">
                 <h2>to do at the museum</h2>
-                <div>
-                    <h3>explore</h3>
-                    <img src="images/mamuth.jpg" alt="Mammoth skeleton">
-                    <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth?</p> 
-                    <p>Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
+                <div class="spec_events">
+                    <div class="events">
+                        <h3 class="event_title">explore</h3>
+                        <img src="images/mamuth.jpg" alt="Mammoth skeleton" class="info_image">
+                        <div class="event_text">
+                            <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth?</p> 
+                            <p>Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
+                        </div>
+                    </div>
+                    <div class="events">
+                        <h3 class="event_title">experiment</h3>
+                        <img src="images/experiment.jpg" alt="kid doing an experiment with beads of different colors" class="info_image">
+                        <div class="event_text">
+                            <p>We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00</p> 
+                            <p>where you’ll get to explore and experiment with our team of experts.</p>
+                        </div>
+                    </div>
+                    <div class="events">
+                        <h3 class="event_title">discover</h3>
+                        <img src="images/discover.jpg" alt="kid wearing vr goggles painting on a kanvas" class="info_image">
+                        <div class="event_text">
+                            <p>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery.</p> 
+                            <p>Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h3>experiment</h3>
-                    <img src="images/experiment.jpg" alt="kid doing an experiment with beads of different colors">
-                    <p>We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00</p> 
-                    <p>where you’ll get to explore and experiment with our team of experts.</p>
-                </div>
-                <div>
-                    <h3>discover</h3>
-                    <img src="images/discover.jpg" alt="kid wearing vr goggles painting on a kanvas">
-                    <p>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery.</p> 
-                    <p>Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.</p>
-                </div>
-                <button><a>sign up for club activities</a></button>
+                <button class="contact_btn btn"><a>sign up for club activities</a></button>
             </section>
-            <section>
+
+            <section class="main_events">
                 <h2>'do try this at home' experiments!</h2>
-                <img src="images/slime1.jpg" alt="kid holding blue slime">
-                <h3>how to make slime</h3>
-                <img src="images/vulcano1.jpg" alt="erupting lava">
-                <h3>make an erupting volcano</h3>
-                <img src="images/cannon1.jpg" alt="cannon shooting confetti">
-                <h3>create a small air cannon</h3>
-            </section>
-            <section>
-                <h2>online games</h2>
-                <div>
-                    <img src="images/game1_code.jpg" alt="creatures in 8 bit game style">
-                    <h3>code monsters</h3>
-                    <p>get the creatures to collect points by using flexbox</p>
-                    <button>play</button>
+                <div class="spec_events">
+                    <div class="events">
+                        <img src="images/slime1.jpg" alt="kid holding blue slime" class="info_image">
+                        <h3 class="event_title">how to make slime</h3>
+                    </div>
+                    <div class="events">    
+                        <img src="images/vulcano1.jpg" alt="erupting lava" class="info_image">
+                        <h3 class="event_title">make an erupting volcano</h3>
+                    </div>
+                    <div class="events">
+                        <img src="images/cannon1.jpg" alt="cannon shooting confetti" class="info_image">
+                        <h3 class="event_title">create a small air cannon</h3>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/game2_lab.jpg" alt="three lab flasks of different colors">
-                    <h3>labrat</h3>
-                    <p>mix chemicals to get fun reactions</p>
-                    <p>but dont blow up the lab!</p>
-                    <button>play</button>
+            </section>
+            <section class="main_events">
+                <h2>online games</h2>
+                <div class="spec_events">
+                    <div>
+                        <img src="images/game1_code.jpg" alt="creatures in 8 bit game style" class="game_image">
+                        <h3>code monsters</h3>
+                        <p>get the creatures to collect points by using flexbox</p>
+                        <button class="btn">play</button>
+                    </div>
+                    <div>
+                        <img src="images/game2_lab.jpg" alt="three lab flasks of different colors" class="game_image">
+                        <h3>labrat</h3>
+                        <p>mix chemicals to get fun reactions</p>
+                        <p>but dont blow up the lab!</p>
+                        <button class="btn">play</button>
+                    </div>
                 </div>
             </section>
         </main>
     </body>
+
     <footer>
         <section class="footer_contact">
             <h3>contact</h3>

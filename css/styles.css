@@ -211,8 +211,12 @@ main a {
     color: var(--darkgreen);
     text-decoration: underline;
 }
+/*--mainstyle kids--*/
+.game_image {
+    width: 500px;
+}
 
-/*--mainstyle about--*/
+/*--mainstyle about/researchers/teachers--*/
 
 .main_content {
     display: flex;
