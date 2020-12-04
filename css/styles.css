@@ -235,6 +235,9 @@ main a {
     padding-left: 20px;
     align-self: center;
 }
+.contact_btn {
+    margin-top: 50px;
+}
 
 /*--footerstyle--*/
 footer {
