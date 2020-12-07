@@ -254,6 +254,36 @@ main a {
     margin-top: 50px;
 }
 
+/*--mainstyle exhibition--*/
+.exhibition_nav {
+    display: flex;
+    justify-content: space-around;
+}
+.ex_nav {
+    color: var(--blackgreen);
+}
+.card_wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_layout {
+    background-color: var(--pink);
+    margin: 20px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+}
+.card_title {
+    padding-bottom: 10px;
+}
+.card_text {
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /*--footerstyle--*/
 footer {
     background-color: var(--pink);
