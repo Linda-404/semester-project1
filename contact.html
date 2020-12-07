@@ -38,81 +38,93 @@
 
         <main>
             <img src="images/banner_moons.jpg" alt="black sky displaying eight different stages of the moon" class="banner">
-            <h1>visit and contact information</h1>
+            <div class="main_title">
+                <h1>visit and contact information</h1>
+            </div>
+            <div>
+                <section>
+                    <img src="images/map.jpg" alt="a magnifying glass on a map" class="info_image">
+                    <div class="card_text">
+                        <div>
+                            <h2>location</h2>
+                            <h3>community science museum</h3>
+                            <p>adresse: fakestreet 69, 0170 country</p>
+                        </div>
+                        <div>
+                            <h2>open hours</h2>
+                            <p>Monday: Closed</p>
+                            <p>Tuesday: 10:00 – 16:00</p>
+                            <p>Wednesday: 10:00 – 16:00</p>
+                            <p>Thursday: 10:00 – 16:00</p>
+                            <p>Friday: 10:00 – 19:00</p>
+                            <p>Saturday: 9:00 – 16:00</p>
+                            <p>Sunday: 9:00 – 13:00</p>
+                        </div>
+                    </div>
+                </section>
+
+                <form class="form">
+                    <h2 class="form_title">contact form</h2>
+                    <section class="form_sec">
+                        <label for="full_name">Full Name</label>
+                        <input type="text" name="full_name" id="full_name" placeholder="full name">
+                        <label for="email">e-mail</label>
+                        <input type="email" name="email" id="email" placeholder="e-mail">
+                    </section>
+                    <section>
+                        <h3>regarding</h3>
+                        <label for="book_tour">book tour</label>
+                        <input type="radio" name="book_tour">
+                        <label for="sign_up_for_club_activities">sign up for club activities</label>
+                        <input type="radio" name="sign_up_for_club_activities">
+                        <label for="get_involved">get involved</label>
+                        <input type="radio" name="get_involved">
+                        <label for="other">other</label>
+                        <input type="radio" name="other">
+                    </section>
+                    <section>
+                        <label for="text_area">write text here</label>
+                        <input type="text" name="text_area">
+                    </section>
+                    <button class="btn">send</button>
+                </form>
+            </div>
 
             <section>
-                <img src="images/map.jpg" alt="a magnifying glass on a map">
                 <div>
-                    <h2>location</h2>
-                    <h3>community science museum</h3>
-                    <p>adresse: fakestreet 69, 0170 country</p>
+                    <img src="images/admission.jpg" alt="an abstract installation of conecting wires" class="info_image">
+                    <div>
+                        <h2>admission</h2>
+                        <p>The entrance is free for all.</p> 
+                        <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p> 
+                        <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+                    </div>
                 </div>
                 <div>
-                    <h2>open hours</h2>
-                    <p>Monday: Closed</p>
-                    <p>Tuesday: 10:00 – 16:00</p>
-                    <p>Wednesday: 10:00 – 16:00</p>
-                    <p>Thursday: 10:00 – 16:00</p>
-                    <p>Friday: 10:00 – 19:00</p>
-                    <p>Saturday: 9:00 – 16:00</p>
-                    <p>Sunday: 9:00 – 13:00</p>
-                </div>
-            </section>
-
-            <form>
-                <h2>contact form</h2>
-                <section>
-                    <label for="full_name">Full Name</label>
-                    <input type="text" name="full_name" id="full_name" placeholder="full name">
-                    <label for="email">e-mail</label>
-                    <input type="email" name="email" id="email" placeholder="e-mail">
-                </section>
-                <section>
-                    <h3>regarding</h3>
-                    <label for="book_tour">book tour</label>
-                    <input type="radio" name="book_tour">
-                    <label for="sign_up_for_club_activities">sign up for club activities</label>
-                    <input type="radio" name="sign_up_for_club_activities">
-                    <label for="get_involved">get involved</label>
-                    <input type="radio" name="get_involved">
-                    <label for="other">other</label>
-                    <input type="radio" name="other">
-                </section>
-                <section>
-                    <label for="text_area">write text here</label>
-                    <input type="text" name="text_area">
-                </section>
-                <button>send</button>
-            </form>
-
-            <section>
-                <div>
-                    <img src="images/admission.jpg" alt="an abstract installation of conecting wires">
-                    <h2>admission</h2>
-                    <article>The entrance is free for all. 
-                    There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. 
-                    If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
-                    </article>
+                    <img src="images/access1.jpg" alt="sign with a wheelchair" class="info_image">
+                    <div>
+                        <h2>accessibility</h2>
+                        <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
+                    </div>
                 </div>
                 <div>
-                    <img src="images/access1.jpg" alt="sign with a wheelchair">
-                    <h2>accessibility</h2>
-                    <article>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</article>
+                    <img src="images/cafeteria.jpg" alt="happy family eating in a cafeteria" class="info_image">
+                    <div>
+                        <h2>food and drink</h2>
+                        <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+                    </div>
                 </div>
                 <div>
-                    <img src="images/cafeteria.jpg" alt="happy family eating in a cafeteria">
-                    <h2>food and drink</h2>
-                    <article>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</article>
-                </div>
-                <div>
-                    <img src="images/shop1.jpg" alt="small boy choosing a flying toy in a toyshop">
-                    <h2>shop</h2>
-                    <article>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</article>
+                    <img src="images/shop1.jpg" alt="small boy choosing a flying toy in a toyshop" class="info_image">
+                    <div>
+                        <h2>shop</h2>
+                        <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+                    </div>
                 </div>
             </section>
         </main>
     </body>
-    
+
     <footer>
         <section class="footer_contact">
             <h3>contact</h3>

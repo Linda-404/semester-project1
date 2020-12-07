@@ -284,6 +284,11 @@ main a {
     padding-right: 20px;
 }
 
+/*--mainstyle contact--*/
+.form {
+    background-color: #fff;
+}
+
 /*--footerstyle--*/
 footer {
     background-color: var(--pink);
