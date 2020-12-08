@@ -286,6 +286,7 @@ main a {
 
 /*--mainstyle contact--*/
 .contact_layout {
+    padding: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -301,10 +302,21 @@ main a {
     padding-left: 20px;
     padding-right: 20px;
 }
+/*.contact_wrapper {
+    display: flex;
+    flex-direction: column;
+}*/
+
 .form {
     background-color: #fff;
+    margin-top: 20px;
     width: 600px;
     /*margin: 20px;*/
+    display: flex;
+    flex-direction: column;
+}
+.contact_btn {
+    align-self: center;
 }
 .form_sec {
     padding: 20px;
@@ -312,9 +324,10 @@ main a {
     flex-direction: column;
 }
 .form_input {
-    width: 200px;
+    width: 250px;
     padding: 5px;
 }
+
 .visit_info {
     width: 300px;
     padding-bottom: 25px;
@@ -328,6 +341,9 @@ main a {
 }
 .visit_title {
     align-self: center;
+}
+.text_area {
+    resize: none;
 }
 
 /*--footerstyle--*/
