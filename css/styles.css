@@ -55,7 +55,8 @@ header {
 .logo {
     width: 400px;
 }
-nav {
+
+/*nav {
     background-color: none;
 }
 nav ul {
@@ -67,18 +68,62 @@ nav ul {
 nav ul li {
     font-size: 16px;
     padding-right: 10px;
+    position: relative;
 }
 nav ul li a {
     text-decoration: none;
     color: var(--green);
+}*/
+
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--green);
+    font-size: 14px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+ul li {
+    color: var(--green);
+    display: block;
+    float: left;
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+ul li:hover {
+    cursor: pointer;
 }
 ul li ul {
+    background-color: #000;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 0.5rem;
+    left: 0;
     display: none;
 }
-ul li ul:active {
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+/*ul li ul:active {
     display: flex;
     flex-direction: column;
-}
+}*/
+
+
 .search {
     background-color: var(--green);
     border-radius: 5px;
@@ -137,11 +182,13 @@ main a {
     justify-content: center;
 }
 .intro_text {
+    background-color: var(--pink);
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 20px;
+    padding-right: 20px;
 }
 .title {
     align-self: center;
@@ -214,6 +261,12 @@ main a {
     text-decoration: underline;
 }
 /*--mainstyle kids--*/
+.game_section {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .game {
     position: relative;
 }
