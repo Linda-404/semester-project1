@@ -91,6 +91,9 @@ nav ul {
     margin: 0;
     padding-left: 0;
 }
+.hamburgernav {
+    display: flex;
+}
 ul li {
     color: var(--green);
     display: block;
@@ -139,6 +142,13 @@ ul li ul li {
 }
 .fas {
     padding: 5px;
+}
+label {
+    color: var(--green);
+    display: none;
+}
+#hamburgermenu {
+    display: none;
 }
 
 /*--mainstyle index--*/
@@ -291,7 +301,8 @@ main a {
 .main_title {
     background-color: var(--pink);
     width: 100%;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
 }
@@ -439,4 +450,55 @@ footer {
 .f_icon {
     padding: 5px;
     font-size: 20px;
+}
+
+@media screen and (max-width:500px) {
+    header {
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 200px;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburgernav { 
+        background-color: var(--blackgreen);
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 85px;
+        height: 400px;
+        width: 100%;
+    }
+    #hamburgermenu:checked ~ ul {
+        display: flex;
+    }
+    .virtual_tour {
+        display: none;
+    }
+    .spec_events {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_image {
+        width: 300px;
+    }
+    .intro_kids, .main_links {
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.main_links {
+        flex-direction: column;
+        align-items: center;
+    }*/
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_contact {
+        flex-direction: column;
+        align-items: center;
+    }
 }
