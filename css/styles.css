@@ -27,6 +27,9 @@ h3 {
 h4, p {
     font-size: 14px;
 }
+h1, h2, h3, h4, h5, p::first-letter {
+    text-transform: capitalize;
+}
 
 /*--colors--*/
 :root {
@@ -75,7 +78,9 @@ nav ul li a {
     color: var(--green);
 }*/
 
-
+nav {
+    text-transform: capitalize;
+}
 nav ul li a {
     text-decoration: none;
     color: var(--green);
@@ -118,11 +123,6 @@ ul li ul li {
     clear: both;
     width: 100%;
 }
-/*ul li ul:active {
-    display: flex;
-    flex-direction: column;
-}*/
-
 
 .search {
     background-color: var(--green);
@@ -172,6 +172,7 @@ main a {
 .btn {
     background-color: var(--blackgreen);
     color: var(--green);
+    text-transform: capitalize;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -182,7 +183,7 @@ main a {
     justify-content: center;
 }
 .intro_text {
-    background-color: var(--pink);
+    /*background-color: var(--pink);*/
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -432,5 +433,10 @@ footer {
     margin-top: 5px;
 }
 .footer_icons {
-    margin-top: 5px;
+    /*margin-top: 5px;*/
+    padding: 5px;
+}
+.f_icon {
+    padding: 5px;
+    font-size: 20px;
 }
