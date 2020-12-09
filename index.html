@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet"> 
         <link href="css/styles.css" rel="stylesheet"> 
     </head>
+    
     <body>
         <header>
             <a><i class="fas fa-chevron-left arrow"></i></a>
@@ -20,8 +21,8 @@
                     <li><a href="about.html">about us</a></li>
                     <li><a href="#special">special events and exhibitions</a></li>
                     <li><a href="exhibition.html">exhibition spaces</a></li>
-                    <li><a href="#">explore</a>
-                        <ul class="dropdown">
+                    <li><a href="#" aria-haspopup="true">explore</a>
+                        <ul class="dropdown" aria-label="submenu">
                             <li><a href="kids.html">kids</a></li>
                             <li><a href="teachers.html">teachers</a></li>
                             <li><a href="researchers.html">researchers</a></li>
@@ -29,12 +30,12 @@
                     </li>
                     <li><a href="contact.html">visit</a></li>
                     <li><a href="getinvolved.html">get involved</a></li>
+                    <div class="search">
+                        <input type="text" class="search_input" placeholder="search">
+                        <div class="searchbtn"><i class="fas fa-search"></i></div>
+                    </div>
                 </ul>
             </nav>
-            <div class="search">
-                <input type="text" class="search_input" placeholder="search">
-                <div class="searchbtn"><i class="fas fa-search"></i></div>
-            </div>
         </header>
 
         <main>

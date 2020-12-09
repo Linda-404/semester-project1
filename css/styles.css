@@ -117,6 +117,7 @@ ul li ul {
     display: none;
 }
 ul li:hover > ul,
+ul li:focus-within > ul,
 ul li ul:hover {
     visibility: visible;
     opacity: 1;
@@ -476,12 +477,13 @@ footer h3 {
     }
    .hamburgernav { 
         background-color: var(--blackgreen);
-        display: none;
+        right: 0%;
+        display: none;  
         flex-direction: column;
         position: absolute;
         top: 54.8px;
-        height: 400px;
-        width: 200px;
+        height: 450px;
+        width: auto;
     }
     #hamburgermenu:checked ~ ul {
         display: flex;
@@ -501,6 +503,10 @@ footer h3 {
     .text_kids {
         width: 300px;
     }
+    .footer_contact {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media screen and (max-width:500px) {
     h1 {
@@ -515,10 +521,6 @@ footer h3 {
     h4, p {
         font-size: 12px;
     }
-    
-    header {
-        flex-wrap: wrap;
-    }
     .logo {
         width: 200px;
     }
@@ -531,9 +533,9 @@ footer h3 {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 85px;
-        height: 400px;
-        width: 100%;
+        top: 44.6px;
+        height: 450px;
+        width: auto;
     }
     #hamburgermenu:checked ~ ul {
         display: flex;
