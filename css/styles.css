@@ -134,7 +134,7 @@ ul li ul li {
     padding: 5px;
     display: flex;
 }
-.input {
+.search_input,.input {
     width: 200px;
     border: none;
     border-radius: 5px;
@@ -336,7 +336,7 @@ main a {
 .card_layout {
     background-color: var(--pink);
     margin: 20px;
-    width: 900px;
+    max-width: 900px;
     display: flex;
     align-items: center;
 }
@@ -417,6 +417,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+footer h3 {
+    padding-bottom: 10px;
+}
 .footer_contact {
     margin-top: 20px;
     padding-bottom: 20px;
@@ -451,8 +454,68 @@ footer {
     padding: 5px;
     font-size: 20px;
 }
-
+@media screen and (max-width:900px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    h4, p {
+        font-size: 12px;
+    }
+   .logo {
+       width: 250px;
+    } 
+   label {
+        display: block;
+        cursor: pointer;
+    }
+   .hamburgernav { 
+        background-color: var(--blackgreen);
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 54.8px;
+        height: 400px;
+        width: 200px;
+    }
+    #hamburgermenu:checked ~ ul {
+        display: flex;
+    }
+   nav ul li a {
+       font-size: 12px;
+    }
+    ul li ul {
+        position: relative;
+    }
+    .events, .info_image {
+        width: 200px;
+    }
+    .main_image {
+        width: 400px;
+    }
+    .text_kids {
+        width: 300px;
+    }
+}
 @media screen and (max-width:500px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    h4, p {
+        font-size: 12px;
+    }
+    
     header {
         flex-wrap: wrap;
     }
@@ -478,21 +541,39 @@ footer {
     .virtual_tour {
         display: none;
     }
+    .main_events {
+        padding-top: 30px;
+    }
     .spec_events {
         flex-direction: column;
         align-items: center;
     }
+    .events, .card_layout {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .main_image {
         width: 300px;
     }
-    .intro_kids, .main_links {
+    .game_image {
+        width: 350px;
+    }
+    .intro_kids, .main_links, .main_info, .card_layout, .exhibition_nav {
         flex-direction: column;
         align-items: center;
     }
-    /*.main_links {
+    .card_text {
+        width: 300px;
+        display: flex;
         flex-direction: column;
         align-items: center;
-    }*/
+    }
+    .main_text {
+        padding-top: 10px;
+    }
+    .intro_links, .game_section {
+        padding-bottom: 10px;
+    }
     footer {
         flex-direction: column;
         align-items: center;
