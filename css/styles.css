@@ -564,6 +564,9 @@ footer h3 {
         flex-direction: column;
         align-items: center;
     }
+    .events, .info_image {
+        width: 300px;
+    }
     .events {
         padding-top: 10px;
         padding-bottom: 10px;
