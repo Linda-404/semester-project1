@@ -337,6 +337,8 @@ main a {
 .card_layout {
     background-color: var(--pink);
     margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-width: 900px;
     display: flex;
     align-items: center;
@@ -471,7 +473,7 @@ footer h3 {
    .logo {
        width: 250px;
     } 
-   label {
+    label {
         display: block;
         cursor: pointer;
     }
@@ -497,11 +499,23 @@ footer h3 {
     .events, .info_image {
         width: 200px;
     }
+    .virtual_tour {
+        padding-left: 20px;
+    }
     .main_image {
         width: 400px;
     }
     .text_kids {
         width: 300px;
+    }
+    .card_layout {
+        max-width: 700px;
+    }
+    .game_image {
+        width: 350px;
+    }
+    .contact_info, .form {
+        max-width: 400px;
     }
     .footer_contact {
         flex-direction: column;
@@ -550,7 +564,7 @@ footer h3 {
         flex-direction: column;
         align-items: center;
     }
-    .events, .card_layout {
+    .events {
         padding-top: 10px;
         padding-bottom: 10px;
     }
