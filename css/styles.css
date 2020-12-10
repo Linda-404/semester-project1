@@ -9,6 +9,7 @@
 }*/
 
 /*--fontstyle--*/
+
 h1, h2, nav {
     font-family: 'Oswald', sans-serif;
 }
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, p::first-letter {
 }
 
 /*--colors--*/
+
 :root {
     --black: #000;
     --blackgreen: #031F19;
@@ -44,40 +46,22 @@ h1, h2, h3, h4, h5, p::first-letter {
 }
 
 /*--headerstyle--*/
+
 header {
     background-color: var(--blackgreen);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /*align-items: baseline;*/
     align-items: flex-end;
 }
 .arrow {
     margin-left: 5px;
     color: var(--green);
+    display: none;
 }
 .logo {
     width: 400px;
 }
-
-/*nav {
-    background-color: none;
-}
-nav ul {
-    padding: 10px;
-    padding-bottom: 0;
-    list-style: none;
-    display: flex;
-}
-nav ul li {
-    font-size: 16px;
-    padding-right: 10px;
-    position: relative;
-}
-nav ul li a {
-    text-decoration: none;
-    color: var(--green);
-}*/
 
 nav {
     text-transform: capitalize;
@@ -89,6 +73,7 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: var(--lightgreen);
+    cursor: pointer;
 }
 nav ul {
     list-style: none;
@@ -157,6 +142,7 @@ label {
 }
 
 /*--mainstyle index--*/
+
 main {
     background-color: var(--grey);
 }
@@ -194,6 +180,7 @@ main a {
 }
 .btn:hover {
     background-color: var(--darkgreen);
+    cursor: pointer;
 }
 .intro {
     margin-top: 20px;
@@ -201,7 +188,6 @@ main a {
     justify-content: center;
 }
 .intro_text {
-    /*background-color: var(--pink);*/
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -214,7 +200,6 @@ main a {
     padding-bottom: 10px;
 }
 .main_events {
-    /*margin-top: 20px;*/
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -283,6 +268,7 @@ main a {
     color: var(--darkgreen);
 }
 /*--mainstyle kids--*/
+
 .game_section {
     width: 500px;
     display: flex;
@@ -331,6 +317,7 @@ main a {
 }
 
 /*--mainstyle exhibition--*/
+
 .exhibition_nav {
     display: flex;
     justify-content: space-around;
@@ -363,6 +350,7 @@ main a {
 }
 
 /*--mainstyle contact--*/
+
 .contact_layout {
     padding: 20px;
     display: flex;
@@ -370,7 +358,6 @@ main a {
 }
 .contact_info {
     width: 600px;
-    /*margin: 20px;*/
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -380,17 +367,11 @@ main a {
     padding-left: 20px;
     padding-right: 20px;
 }
-/*.contact_wrapper {
-    display: flex;
-    flex-direction: column;
-}*/
-
 .form {
     background-color: #fff;
     margin-top: 20px;
     padding-bottom: 20px;
     width: 600px;
-    /*margin: 20px;*/
     display: flex;
     flex-direction: column;
 }
@@ -438,6 +419,7 @@ main a {
 }
 
 /*--footerstyle--*/
+
 footer {
     background-color: var(--pink);
     display: flex;
@@ -473,14 +455,14 @@ footer h3 {
     margin-top: 5px;
 }
 .footer_icons {
-    /*margin-top: 5px;*/
     padding: 5px;
 }
 .f_icon {
     padding: 5px;
     font-size: 20px;
 }
-@media screen and (max-width:900px) {
+
+@media screen and (max-width:1024px) {
     h1 {
         font-size: 18px;
     }
@@ -545,6 +527,7 @@ footer h3 {
         align-items: center;
     }
 }
+
 @media screen and (max-width:500px) {
     h1 {
         font-size: 18px;
@@ -590,7 +573,7 @@ footer h3 {
     .events, .info_image, .contact_info, .form {
         width: 300px;
     }
-    .events {
+    .events, .intro_kids {
         padding-top: 10px;
         padding-bottom: 10px;
     }
