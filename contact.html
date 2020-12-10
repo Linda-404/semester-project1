@@ -69,32 +69,36 @@
                     <form class="form">
                         <section class="form_sec">
                             <h2 class="form_title">contact form</h2>
-                            <label for="full_name">Full Name</label>
-                            <input type="text" name="full_name" id="full_name" placeholder="full name" class="form_input">
-                            <label for="email">e-mail</label>
-                            <input type="email" name="email" id="email" placeholder="e-mail" class="form_input">
+                            <div class="form_info">
+                                <label for="full_name" class="check">Full Name</label>
+                                <input type="text" name="full_name" id="full_name" placeholder="full name" class="form_input">
+                            </div>
+                            <div class="form_info">
+                                <label for="email" class="check">e-mail</label>
+                                <input type="email" name="email" id="email" placeholder="e-mail" class="form_input">
+                            </div>
                         </section>
                         <section class="form_sec">
                             <h3>regarding</h3>
-                            <div class="check">
+                            <div class="form_fill">
                                 <input type="checkbox" name="book_tour">
-                                <label for="book_tour">book tour</label>
+                                <label for="book_tour" class="check">book tour</label>
                             </div>
-                            <div>
+                            <div class="form_fill">
                                 <input type="checkbox" name="sign_up_for_club_activities">
-                                <label for="sign_up_for_club_activities">sign up for club activities</label>
+                                <label for="sign_up_for_club_activities" class="check">sign up for club activities</label>
                             </div>
-                            <div>
+                            <div class="form_fill">
                                 <input type="checkbox" name="get_involved">
-                                <label for="get_involved">get involved</label>
+                                <label for="get_involved" class="check">get involved</label>
                             </div>
-                            <div>
+                            <div class="form_fill">
                                 <input type="checkbox" name="other">
-                                <label for="other">other</label>
+                                <label for="other" class="check">other</label>
                             </div>
                         </section>
                         <section class="form_sec">
-                            <label for="message">write text here</label>
+                            <label for="message" class="check">write text here</label>
                             <textarea name="message" rows="10" cols="10"></textarea>
                         </section>
                         <button class="contact_btn btn">send</button>
