@@ -482,6 +482,7 @@ footer h3 {
         display: block;
         cursor: pointer;
     }
+    
    .hamburgernav { 
         background-color: var(--blackgreen);
         right: 0%;
@@ -548,6 +549,7 @@ footer h3 {
         display: block;
         cursor: pointer;
     }
+    
     .hamburgernav { 
         background-color: var(--blackgreen);
         display: none;
