@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, p::first-letter {
     --grey: #C2BEBB;
     --pink: #FBDEDA;
     --purple: #A5199C;
-    --darkgreen: #057316;
+    --lightgreen: #A5FFA6;
+    --darkgreen: #14A86C;
 }
 
 /*--headerstyle--*/
@@ -85,6 +86,9 @@ nav ul li a {
     text-decoration: none;
     color: var(--green);
     font-size: 14px;
+}
+nav ul li a:hover {
+    color: var(--lightgreen);
 }
 nav ul {
     list-style: none;
@@ -188,6 +192,9 @@ main a {
     border-radius: 5px;
     padding: 10px;
 }
+.btn:hover {
+    background-color: var(--darkgreen);
+}
 .intro {
     margin-top: 20px;
     display: flex;
@@ -269,8 +276,11 @@ main a {
     align-items: center;
 }
 .links {
-    color: var(--darkgreen);
+    color: var(--blackgreen);
     text-decoration: underline;
+}
+.links:hover {
+    color: var(--darkgreen);
 }
 /*--mainstyle kids--*/
 .game_section {
