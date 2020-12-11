@@ -199,6 +199,7 @@ main a {
     border: none;
     border-radius: 5px;
     padding: 10px;
+    font-size: 0.875em;
 }
 .btn:hover {
     background-color: var(--darkgreen);
