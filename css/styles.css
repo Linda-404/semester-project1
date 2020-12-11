@@ -4,10 +4,27 @@
     margin: 0;
     padding: 0;
 }
+/*html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    flex-shrink: 0;
+}*/
 /*body {
     margin: 0;
 }*/
-
+/*.body_wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+main {
+    min-width: 100%;
+}*/
 /*--fontstyle--*/
 
 h1, h2, nav {
@@ -502,6 +519,9 @@ footer h3 {
     ul li ul {
         position: relative;
     }
+    /*main {
+        min-width: calc(100vh - 54.8px - 267.3px);
+    }*/
     .events, .info_image, .visit_info {
         width: 200px;
     }
