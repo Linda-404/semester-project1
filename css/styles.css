@@ -528,6 +528,9 @@ footer h3 {
     ul li ul {
         position: relative;
     }
+    .search {
+        margin-top: 20px;
+    }
     /*main {
         min-width: calc(100vh - 54.8px - 267.3px);
     }*/
