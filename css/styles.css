@@ -138,6 +138,7 @@ ul li ul li {
     background-color: var(--green);
     border-radius: 5px;
     margin-right: 10px;
+    margin-left: 10px;
     padding: 5px;
     display: flex;
 }
@@ -493,7 +494,7 @@ footer h3 {
         font-size: 12px;
     }
    .logo {
-       width: 250px;
+       width: 300px;
     } 
     label {
         display: block;
@@ -509,12 +510,13 @@ footer h3 {
         top: 54.8px;
         height: 450px;
         width: auto;
+        z-index: 10;
     }
     #hamburgermenu:checked ~ ul {
         display: flex;
     }
    nav ul li a {
-       font-size: 12px;
+       font-size: 14px;
     }
     ul li ul {
         position: relative;
@@ -563,7 +565,7 @@ footer h3 {
         font-size: 12px;
     }
     .logo {
-        width: 200px;
+        width: 250px;
     }
     label {
         display: block;
@@ -578,6 +580,7 @@ footer h3 {
         top: 44.6px;
         height: 450px;
         width: auto;
+        z-index: 10;
     }
     #hamburgermenu:checked ~ ul {
         display: flex;
