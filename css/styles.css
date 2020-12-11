@@ -145,7 +145,7 @@ ul li ul li {
     display: flex;
 }
 .search_input,.input {
-    width: 12.5em;
+    width: 200px;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -515,7 +515,7 @@ footer h3 {
         flex-direction: column;
         position: absolute;
         top: 65px;
-        height: 425px;
+        height: 450px;
         width: auto;
         z-index: 10;
     }
@@ -523,7 +523,7 @@ footer h3 {
         display: flex;
     }
    nav ul li a {
-       font-size: 14px;
+       font-size: 1em;
     }
     ul li ul {
         position: relative;
