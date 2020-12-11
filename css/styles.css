@@ -535,25 +535,25 @@ footer h3 {
         min-width: calc(100vh - 54.8px - 267.3px);
     }*/
     .events, .info_image, .visit_info {
-        width: 200px;
+        width: 12.5em;
     }
     .virtual_tour {
         padding-left: 20px;
     }
     .main_image {
-        width: 400px;
+        width: 25em;
     }
     .text_kids {
-        width: 300px;
+        width: 18.75em;
     }
     .card_layout {
-        max-width: 700px;
+        max-width: 43.75em;
     }
     .game_image {
-        width: 350px;
+        width: 21.875em;
     }
     .contact_info, .form {
-        max-width: 400px;
+        max-width: 25em;
     }
     .footer_contact {
         flex-direction: column;
@@ -575,7 +575,7 @@ footer h3 {
         font-size: 12px;
     }
     .logo {
-        width: 250px;
+        width: 15.625em;
     }
     label {
         display: block;
@@ -605,25 +605,25 @@ footer h3 {
         flex-direction: column;
         align-items: center;
     }
-    .events, .info_image, .contact_info, .form {
-        width: 300px;
+    .events, .info_image, .main_image, .contact_info, .form {
+        width: 18.75em;
     }
     .events, .intro_kids {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .main_image {
+    /*.main_image {
         width: 300px;
-    }
+    }*/
     .game_image {
-        width: 350px;
+        width: 21.875em;
     }
     .intro_kids, .main_links, .main_info, .card_layout, .exhibition_nav, .contact_layout, .contact_info {
         flex-direction: column;
         align-items: center;
     }
     .card_text {
-        width: 300px;
+        width: 18.75em;
         display: flex;
         flex-direction: column;
         align-items: center;
