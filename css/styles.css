@@ -52,10 +52,12 @@ h1, h2, h3, h4, h5, p::first-letter {
 /*--colors--*/
 
 :root {
+    --offwhite: #F8F8F7;
     --black: #000;
     --blackgreen: #031F19;
     --green: #00FF01;
     --grey: #C2BEBB;
+    --lightpink: #FBF1F0;
     --pink: #FBDEDA;
     --purple: #A5199C;
     --lightgreen: #A5FFA6;
@@ -289,7 +291,7 @@ main a {
 /*--mainstyle kids--*/
 
 .game_section {
-    width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -448,9 +450,12 @@ footer h3 {
     padding-bottom: 10px;
 }
 .footer_contact {
+    min-width: 305px;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer_info {
     margin-left: 10px;
@@ -633,7 +638,8 @@ footer h3 {
         align-items: center;
     }
     .footer_contact {
-        flex-direction: column;
-        align-items: center;
+        background-color: var(--lightpink);
+        /*flex-direction: column;
+        align-items: center;*/
     }
 }
