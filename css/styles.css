@@ -157,6 +157,7 @@ label {
     color: var(--green);
     display: none;
     margin-right: 10px;
+    font-size: 18px;
 }
 #hamburgermenu {
     display: none;
